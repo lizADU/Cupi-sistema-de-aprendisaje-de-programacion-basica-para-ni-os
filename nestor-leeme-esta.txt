@@ -1,0 +1,30 @@
+hola bro te habla ......... yo pues quiene mas ...
+este tutorial es como para que entiendas:
+1. entra aqui: https://docs.conda.io/en/latest/miniconda.html 
+2. descarga desde el link de que dice: Miniconda3 Windows 64-bit
+3. instalalo todo siguiente siguiente
+4. escribe en tu explorador de windows: miniconda y se abrira la terminal de conda
+5. en la terminal de conda escribe: conda create -n mouse-definitivo python=3.8.5
+6. luego: conda activate mouse-definitivo
+7. luego en orden de lista escribe:
+	pip install pyttsx3==2.71
+	pip install SpeechRecognition==3.8.1
+	pip install pynput==1.7.3
+	pip install pyautogui==0.9.53
+	pip install wikipedia==1.4.0
+	pip install opencv-python==4.6.0.66
+	pip install mediapipe==0.8.10.1
+	pip install comtypes==1.1.11P
+	pip install pycaw==20181226
+	pip install screen-brightness-control==0.9.0
+	pip install eel==0.14.0
+	
+	
+8. ahora abre el archivo .py que te pase en visual studio code.
+9. el la barra de abajo donde dice | UTF-8 | CRLF | python | haz click en "python"
+y te dara a elegir entre varias versiones selecciona: python 3.8.5 (mouse-difinitivo)
+
+nota:
+si al hacer correr el archivo te sale un error con letras rojas en la terminal del vs code
+teclea: "ctrl + shift + p" y escribe "terminal: select default profiles"
+y selecciona "Command prompt" y a disfrutar ....

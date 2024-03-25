@@ -1,0 +1,4 @@
+1. installar las librerias necesarias ejecutando el comando
+    pip install -r requirements.txt
+2. ejecutar el archivo python "app.py" se ejecutara en la direccion 
+    http://127.0.0.1:5501

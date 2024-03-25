@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>C.U.P.I</title>
+        <link rel="stylesheet" href="./static/css/style.css">
+    </head>
+
+    <body>
+        <div class="container-principal">
+            <div class="title-Principal"><h1>APRENDE A PROGRAMAR CON C.U.P.I</h1></div>
+            <div class="contenedor">
+                <div class="contenedor-celdas">
+                    <h2 id="caja">Mostrar cinco + ocho</h2>
+                    <h2 class="mensaje-extra">NO OLVIDES TERMINAR CON UN ";"</h2>
+                    <br>
+                    <div id="board"></div>
+                        <button id="limpiar" onclick="sound.play()">Reiniciar</button>
+                        <button id="testear" onclick="sound.play()">Testear</button>
+                </div>
+
+            
+                <div class="contenedor-botones">
+                    <!--<button id="Consejo" style="margin:70px" onclick="sound.play()">Mouse</button> -->
+                    <!--<button id="Consejo" style="margin:70px">Consejos</button>-->
+                </div>
+                <div class="container-camara">
+                    <img src="./static/imagenes/logo2.png" alt="" class="camara">
+                    <button id="Boton-Camara" onclick="sound.play(),window.open('http://127.0.0.1:5501/camara')">Enceder Camara</button>
+                </div>
+                <div class="container">
+                    <div class="contenedor-palabras">
+                    </div>
+                    <h2 class="title-Sintatico">Analizador Sintáctico</h2>
+                    <div id="Sintaxis">
+                        <h2 id="analizando">Esperando para analizar...</h2>
+                    </div>
+                    <h2 class="title-Semantico">Analizador Semántico</h2>
+                </div>
+            </div>
+            <div class="card">
+                <div class="titulo" onclick="sonido.play()">CONSEJOS</div>
+                <div class="content">
+                    <h3>Aprende:</h3>
+                    <p>No te olvides!
+                        -Empezar con una palabra clave cada oracion(mostrar,si,si-no,no)
+                        -Usa los simbolos de agrupacion '()'
+                        -Terminar cada oracion con un ';'
+                        RECUERDA:
+                        -Puedes sumar,restar,multiplicar y dividir numeros enteros
+                        -Solo puedes sumar y multiplicar cadenas.
+                        -Las salidas de las comparaciones son True,False.
+                    </p>
+                </div>
+            </div>
+            <div class="contenedor-pieces-semantico">
+                <div id="pieces"></div>
+                <div id="semantico">
+                    <img id="45" src="./static/imagenes/blank.png" alt="">
+                    <img id="46" src="./static/imagenes/blank.png" alt="">
+                    <img id="47" src="./static/imagenes/blank.png" alt="">
+                    <img id="48" src="./static/imagenes/blank.png" alt="">
+                    <img id="49" src="./static/imagenes/blank.png" alt="">
+                    <img id="50" src="./static/imagenes/blank.png" alt="">
+                    <img id="51" src="./static/imagenes/blank.png" alt="">
+                    <img id="52" src="./static/imagenes/blank.png" alt="">
+                </div>
+
+            </div>
+            <!-- <h2 class="movimientos">Movimientos: <span id="turns">0</span></h2> -->
+         
+
+            </div>
+        </div>
+        
+        <script src="./static/js/App.js"></script>
+    </body>
+</html>
